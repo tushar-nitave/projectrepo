@@ -1,0 +1,47 @@
+.container{
+    /*border: 1px solid #ccc;*/
+}
+
+.top{
+    margin-top:2%;
+}
+
+p{
+    color: #333;
+    font-family: sans-serif, monospace;
+    font-weight: lighter;
+    font-size: 29px;
+    line-height: normal;
+}
+
+p img{
+    padding-right: 276px;
+}
+
+.project-intro{
+    margin-left: 50%;
+    transform: translate(-300px);
+    width: 600px;
+    /*border: 1px solid #000;*/
+    padding: 0 30px 0 30px;
+}
+
+.project-intro p{
+    text-align: justify;
+    color: #333;
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: normal;
+    
+}
+
+@media(max-width:1200px){
+    p img{
+        margin-left: 50%;
+        transform: translate(-333px);
+        padding-bottom: 21px;
+    }
+    p{
+        text-align: center;
+    }
+}
