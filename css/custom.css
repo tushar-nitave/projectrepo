@@ -35,13 +35,79 @@ p img{
     
 }
 
+/*Grid Layout*/
+.grid-layout{
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 0px;
+    padding-left: 0px;
+    width: 100%;
+}
+
+.grid-layout li{
+    position:relative;
+    float: left;
+    list-style: none;
+}
+
+.cse-dept, .elec-dept, .electronics-dept{
+    margin: 5px 26px 5px 0;
+    width:352px;
+    border-radius: 6px;
+    height:300px;
+    border: 1px solid #999;
+    box-shadow: 5px 2px 4px 1px #ccc;
+    text-align: center;
+}
+
+.cse-dept p, .elec-dept p, .electronics-dept p{
+    margin-top: 30%;
+    
+}
+
+.cse-dept a{
+    
+}
+
+.cse-dept:hover, .elec-dept:hover, .electronics-dept:hover{
+/*    -moz-transition:0.1s ease-in-out;
+    box-shadow: 5px 4px 5px 1px rgba(0, 136, 204, 0.5);
+    -moz-transform: scale(1.02);*/
+}
+
+
+.read-more{
+    height:33px;
+    width:110px;
+    border: 1px solid #43E542;
+    border-radius: 2px;
+    margin-left: 50%;
+    transform: translate(-55px);
+}
+
+.cse-dept .read-more a{
+    color: #43e542;
+    font-size: 15px;
+}
+
+.cse-dept .read-more:hover{
+    cursor: pointer;
+    border: 1px solid #08c;
+    -moz-transition: 0.2s ease-in-out;
+}
+.cse-dept .read-more:hover > a{
+    -moz-transition: 0.2s ease-in-out;
+    cursor: pointer;
+    color:#08c;
+    text-decoration: none;
+}
+
 @media(max-width:1200px){
-    p img{
-        margin-left: 50%;
-        transform: translate(-333px);
-        padding-bottom: 21px;
-    }
     p{
         text-align: center;
+    }
+    .project-intro{
+        width: 300px;
+        transform: translate(-150px);
     }
 }
