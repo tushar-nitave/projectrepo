@@ -81,9 +81,10 @@ p img{
     height:33px;
     width:110px;
     border: 1px solid #43E542;
-    border-radius: 2px;
+    border-radius: 3px;
     margin-left: 50%;
     transform: translate(-55px);
+    padding-top: 1.5px;
 }
 
 .cse-dept .read-more a{
@@ -94,10 +95,14 @@ p img{
 .cse-dept .read-more:hover{
     cursor: pointer;
     border: 1px solid #08c;
-    -moz-transition: 0.2s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
 }
 .cse-dept .read-more:hover > a{
-    -moz-transition: 0.2s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
     cursor: pointer;
     color:#08c;
     text-decoration: none;
