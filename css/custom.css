@@ -16,6 +16,7 @@ p{
 
 p img{
     padding-right: 276px;
+    
 }
 
 .project-intro{
@@ -43,5 +44,10 @@ p img{
     }
     p{
         text-align: center;
+    }
+    .project-intro{
+        width: 300px;
+        margin-left: 50%;
+        transform: translate(-150px);
     }
 }
