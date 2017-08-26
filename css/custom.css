@@ -1,5 +1,7 @@
-.container{
+
+.row {
     /*border: 1px solid #ccc;*/
+    margin: 0;
 }
 
 .top{
@@ -16,7 +18,6 @@ p{
 
 p img{
     padding-right: 276px;
-    
 }
 
 .project-intro{
@@ -43,9 +44,20 @@ p img{
     padding-right: 0px;
     padding-left: 0px;
     width: 100%;
+    height: auto;
+    
+}
+.jumbotron{
+    position:relative;
+    border-radius: 0px;
+    height: 400px;
+    background-color:#E7C652
 }
 
-.grid-layout li{
+.jumbotron .container{
+   /* border: 1px solid #000;*/
+}
+.grid-layout li, .address .social-footer  li{
     position:relative;
     float: left;
     list-style: none;
@@ -81,43 +93,80 @@ p img{
     height:33px;
     width:110px;
     border: 1px solid #43E542;
-    border-radius: 3px;
+    border-radius: 2px;
     margin-left: 50%;
     transform: translate(-55px);
-    padding-top: 1.5px;
 }
 
-.cse-dept .read-more a{
+.grid-layout .read-more a{
     color: #43e542;
     font-size: 15px;
 }
 
-.cse-dept .read-more:hover{
+.grid-layout .read-more:hover{
     cursor: pointer;
     border: 1px solid #08c;
-    -moz-transition: 0.3s ease-in-out;
-    -webkit-transition: 0.3s ease-in-out;
-    -o-transition: 0.3s ease-in-out;
+    -moz-transition: 0.2s ease-in-out;
 }
-.cse-dept .read-more:hover > a{
-    -moz-transition: 0.3s ease-in-out;
-    -webkit-transition: 0.3s ease-in-out;
-    -o-transition: 0.3s ease-in-out;
+.grid-layout .read-more:hover > a{
+    -moz-transition: 0.2s ease-in-out;
     cursor: pointer;
     color:#08c;
     text-decoration: none;
 }
 
+/*---------- footer ---------- */
+.jumbotron{
+    margin: 0;
+}
+.jumbotron .container .address {
+    height: auto;
+    width: 263px;
+    /*border: 1px solid #08c;*/
+    
+}
+
+.jumbotron .container .address p{
+    font-size: 14px;
+    line-height: 2;
+    font-family: 'Oswald', sans-serif;
+}
+
+.jumbotron .container .address span{
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+}
+
+.address .social-footer{
+    width: 345px;
+    /*border: 2px dashed #000;*/
+    position: absolute;
+    float: left;
+}
+
+.address p, .address .social-footer  li p{
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    text-align: left;
+}
+
+.container-fluid{
+    background-color: #000;
+    height: 47px;
+    
+}
+
+.container-fluid .container p{
+    font-size: 12px;
+    color: #fff;
+    line-height: -10.42px;
+}
 @media(max-width:1200px){
     p{
         text-align: center;
     }
     .project-intro{
         width: 300px;
-<<<<<<< HEAD
-        margin-left: 50%;
-=======
->>>>>>> ea41bb2ef7861b42a08f824ed05b137462aef9cd
         transform: translate(-150px);
     }
 }
