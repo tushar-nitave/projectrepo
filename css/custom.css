@@ -161,6 +161,16 @@ p img{
     color: #fff;
     line-height: -10.42px;
 }
+
+.btn-info {
+  color: #43E542;
+  background-color:#fff;
+  border:1px solid #43E542;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+
 @media(max-width:1200px){
     p{
         text-align: center;
